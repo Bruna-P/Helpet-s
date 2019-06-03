@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Helpets</string>
+    <string name="account_name">CONTA</string>
+    <string name="password">SENHA</string>
+    <string name="password_hint"></string>
+    <string name="forgot_your_login_info">ESQUECEU INFORMAÇÕES DE LOGIN?</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="remenber_my_password">LEMBRAR MINHA SENHA</string>
+    <string name="username"></string>
+    <string name="title_activity_tela_princ">TelaPrinc</string>
+</resources>
