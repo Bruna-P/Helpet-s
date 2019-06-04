@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Helpets</string>
     <string name="account_name">CONTA</string>
+    <string name="account_name_hint"></string>
     <string name="password">SENHA</string>
     <string name="password_hint"></string>
     <string name="forgot_your_login_info">ESQUECEU INFORMAÇÕES DE LOGIN?</string>
@@ -8,4 +9,15 @@
     <string name="remenber_my_password">LEMBRAR MINHA SENHA</string>
     <string name="username"></string>
     <string name="title_activity_tela_princ">TelaPrinc</string>
+
+//TELA DE REGISTRO
+    <string name="register_name">LOGIN</string>
+    <string name="register_password">SENHA</string>
+    <string name="register_password_hint"></string>
+    <string name="confirm_password">CONFIRMAR SENHA</string>
+    <string name="confirm_password_hint"></string>
+    <string name="register_gmail">GMAIL</string>
+    <string name="gmail_hint"></string>
+
+
 </resources>
