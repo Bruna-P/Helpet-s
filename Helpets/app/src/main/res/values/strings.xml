@@ -1,16 +1,16 @@
 <resources>
+    //TELA DE MENU
     <string name="app_name">Helpets</string>
     <string name="account_name">CONTA</string>
     <string name="account_name_hint"></string>
     <string name="password">SENHA</string>
     <string name="password_hint"></string>
-    <string name="forgot_your_login_info">ESQUECEU INFORMAÇÕES DE LOGIN?</string>
-    <string name="sign_in">SIGN IN</string>
-    <string name="remenber_my_password">LEMBRAR MINHA SENHA</string>
+    <string name="forgot_your_login_info">FORGOT YOUR LOGIN INFO?</string>
+    <string name="remember_my_password">REMEMBER MY PASSWORD</string>
     <string name="username"></string>
     <string name="title_activity_tela_princ">TelaPrinc</string>
 
-//TELA DE REGISTRO
+    //TELA DE REGISTRO
     <string name="register_name">LOGIN</string>
     <string name="register_password">SENHA</string>
     <string name="register_password_hint"></string>
@@ -18,6 +18,13 @@
     <string name="confirm_password_hint"></string>
     <string name="register_gmail">GMAIL</string>
     <string name="gmail_hint"></string>
+    <string name="todo">TODO</string>
+
+    //TELA DE BUSCA
+    <string name="search_for_a_pet">SEARCH FOR A PET</string>
+    <string name="post_a_pet">POST A PET</string>
+    <string name="contact_a_pet">CONTACT A ONG</string>
+    <string name="exit">EXIT</string>
 
 
 </resources>

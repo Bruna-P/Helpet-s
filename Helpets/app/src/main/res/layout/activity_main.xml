@@ -8,7 +8,7 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             tools:context="br.com.fake.steam.LoginActivity">
 
@@ -16,7 +16,7 @@
                 android:layout_width="378dp"
                 android:layout_height="292dp"
                 android:layout_gravity="center"
-                android:src="@mipmap/lg"/>
+                android:src="@mipmap/lg" android:contentDescription="@string/todo"/>
 
         <TextView
                 android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
                 android:textColor="@color/colorAccent"
                 android:textColorHint="#CCC"
 
-                android:hint="@string/account_name_hint"/>
+                android:hint="@string/account_name_hint" android:inputType="" android:autofillHints=""/>
 
         <TextView
                 android:layout_width="wrap_content"
@@ -59,14 +59,14 @@
                 android:textAlignment="center"
                 android:textColor="@color/colorAccent"
                 android:textColorHint="#CCC"
-                android:hint="@string/password_hint"/>
+                android:hint="@string/password_hint" android:autofillHints=""/>
 
         <CheckBox
                 android:id="@+id/checkBox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/remember_my_password"
                 android:layout_gravity="center"
-                android:text="REMEMBER MY PASSWORD"
                 android:textColor="@color/colorAccent"
                 android:textSize="6pt"
                 android:textStyle="bold"
@@ -76,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/login_button"
-                android:text="SIGN IN"
+                android:text="SING IN"
                 android:textColor="@color/colorAccent"
                 android:layout_marginTop="20dp"
                 android:textStyle="bold"
@@ -86,9 +86,9 @@
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/forgot_your_login_info"
                 android:textColor="@color/colorAccent"
                 android:textStyle="bold"
-                android:text="FORGOT YOUR LOGIN INFO?"
                 android:layout_marginTop="40dp"
                 android:layout_gravity="center_horizontal"/>
 
